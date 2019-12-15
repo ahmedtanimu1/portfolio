@@ -1,0 +1,125 @@
+*,*::before, *::after {
+    box-sizing: border-box;
+}
+
+html, body, * {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*NAVIGATION*/
+.navbar {
+    margin: 0;
+}
+
+.navbar-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 10px 5px;
+    font-size: 12px;
+}
+
+.navbar-item {
+    margin: 5px 12px;
+    list-style-type: none;
+    text-transform: capitalize;
+}
+
+.navbar-item:hover {
+    border-bottom: 2px solid black;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+/* INTRODUCTION SECTION*/
+.intro {
+    background-image: url('../assets/background-image.jfif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-clip: content-box;
+    background-size: cover;
+    min-height: 80vh;
+}
+
+.intro-content {
+    color: white;
+    font-size: 3rem;
+    padding-top: 2rem;
+    margin-left: 1rem;
+    font-weight: 400;
+}
+
+/* ABOUT SECTION*/
+.about {
+    height: 50vh;
+    align-content: center;
+    padding: 4rem;
+    font-size: 1.6rem;
+    margin-bottom: 3rem;
+}
+
+.about-content-container {
+    padding-bottom: 3rem;
+}
+
+.content {
+    margin-top: 2rem;
+}
+
+/* PROJECTS SECTION*/
+.projects {
+    padding: 2rem;
+    background-color: #d4d4d4;
+    margin-top: 4rem;
+}
+
+.project-header {
+    margin: 2rem 1rem;
+    text-align: center;
+}
+
+.projects-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.project-item {
+    width: 300px;
+    height: 300px;
+}
+
+.project-image {
+    width: 100%;
+    height: 45px;
+}
+
+.project-title {
+    font-size: 1rem;
+    font-weight: 300;
+    margin-top: 12px;
+}
+
+/* SKILLS SECTION*/
+.skills {
+    padding: 4rem;
+}
+
+.skills-header {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.skills-content {
+    text-align: left;
+    margin-top: 3rem;
+    align-self: flex-start;
+    text-align: left;
+}
